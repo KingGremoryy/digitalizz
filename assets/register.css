@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar{
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #ffff;
+}
+
+.nav-menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.nav-menu li{
+    display: inline-block;
+    margin: 15px;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.banner{
+    background-color: #103ab9;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.main-menu {
+    display: flex;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #ececec;
+    box-sizing: border-box;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 65px;
+}
+
+.menu li{
+    margin: 50px 0;
+    margin-left: 50px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #282928;
+    font-size: 25px;
+}
+
+.form {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.box{
+    width: 70%;
+}
+
+.d-plex-flex-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.form-input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-input input {
+    background-color: #d9d9d9;
+    border: none;
+    height: 40px;
+    width: 100%;
+}
+
+.username {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.form-input2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.form-input2 input {
+    background-color: #d9d9d9;
+    border: none;
+    height: 40px;
+    width: 100%;
+}   
+
+.password {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    gap: 50px;
+}
+
+.form-input3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.form-input3 input {
+    background-color: #d9d9d9;
+    border: none;
+    height: 40px;
+    width: 100%;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 70px;
+}
+
+.btn button, input{
+    width: 200px;
+    height: 40px;
+    background-color: #d9d9d9;
+    border: none;
+}
+
+.footer-text {
+    clear: both;
+    height: 60px;
+    background-color: #103ab9;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
